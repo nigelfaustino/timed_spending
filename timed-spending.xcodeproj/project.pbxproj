@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3A02BD1823F4D28E00BA472F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02BD1723F4D28D00BA472F /* CustomTextField.swift */; };
 		3A02BD1A23F4D45000BA472F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02BD1923F4D45000BA472F /* UIViewController+Extension.swift */; };
+		3A02BD6223F5E33900BA472F /* timed-spending.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A02BD6023F5E33900BA472F /* timed-spending.xcdatamodeld */; };
 		3AFB0CC123D2345E00176E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB0CC023D2345E00176E80 /* AppDelegate.swift */; };
 		3AFB0CC323D2345E00176E80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB0CC223D2345E00176E80 /* SceneDelegate.swift */; };
 		3AFB0CC823D2345E00176E80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB0CC723D2345E00176E80 /* ContentView.swift */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		3A02BD1723F4D28D00BA472F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		3A02BD1923F4D45000BA472F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		3A02BD6123F5E33900BA472F /* timed-spending.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "timed-spending.xcdatamodel"; sourceTree = "<group>"; };
 		3AFB0CBD23D2345E00176E80 /* timed-spending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "timed-spending.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFB0CC023D2345E00176E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AFB0CC223D2345E00176E80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				3AFB0CCE23D2346200176E80 /* LaunchScreen.storyboard */,
 				3AFB0CD123D2346200176E80 /* Info.plist */,
 				3AFB0CCB23D2346200176E80 /* Preview Content */,
+				3A02BD6023F5E33900BA472F /* timed-spending.xcdatamodeld */,
 			);
 			path = "timed-spending";
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A02BD1823F4D28E00BA472F /* CustomTextField.swift in Sources */,
+				3A02BD6223F5E33900BA472F /* timed-spending.xcdatamodeld in Sources */,
 				3AFB0D0F23D27B7300176E80 /* CategoryCell.swift in Sources */,
 				3AFB0CFA23D235F200176E80 /* InputVC.swift in Sources */,
 				3AFB0D0D23D279B600176E80 /* SummaryVC.swift in Sources */,
@@ -691,6 +695,19 @@
 			productName = Stevia;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		3A02BD6023F5E33900BA472F /* timed-spending.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A02BD6123F5E33900BA472F /* timed-spending.xcdatamodel */,
+			);
+			currentVersion = 3A02BD6123F5E33900BA472F /* timed-spending.xcdatamodel */;
+			path = "timed-spending.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3AFB0CB523D2345E00176E80 /* Project object */;
 }
