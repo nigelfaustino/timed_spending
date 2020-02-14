@@ -42,7 +42,7 @@ class CategoryCell: UITableViewCell {
         sv(categoryLabel,
            costLabel
         )
-        categoryLabel.centerVertically().left(10)
+        categoryLabel.centerVertically().left(10).top(20)
         costLabel.centerVertically().right(10)
     }
 
